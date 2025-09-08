@@ -160,15 +160,40 @@ name = "Matthew Kupiec"
 print(f"Hello, my name is " {name} " and I am " {age} " years old")
 
 print("\nTesting Problem 2:")
-# Add your tests here
+num = -3 
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
 
 print("\nTesting Problem 3:")
-# Add your tests here
+for num in range(2, 21):  
+    if num % 2 == 0: 
+        print(num)
 
 print("\nTesting Problem 4:")
-# Add your tests here
+count = 10
+while count > 0:
+    print(count)
+    count -= 1 
+print("Blast off!")
 
 print("\nTesting Problem 5:")
-# Add your tests here
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+        
+print(is_even(4))
+print(is_even(7))
 
+
+print("\nTesting Problem 6:")
+fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+
+for fruit in fruits:
+    print(fruit)
 
