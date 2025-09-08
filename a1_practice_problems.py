@@ -31,7 +31,7 @@ def factorial(n: int) -> int:
         n=(nBase*(nBase-1))
         nBase-1
 
-    
+    print(n)
     """
     raise NotImplementedError("factorial")
 
