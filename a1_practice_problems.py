@@ -18,15 +18,9 @@ from typing import List, TypeVar
 
 
 def absolute(n: int) -> int:
-    """Gives the absolute value of the passed in number. Cannot use the built in
-    function `abs`.
-
-    Args:
-        n - the number to take the absolute value of
-
-    Returns:
-        the absolute value of the passed in number
-    """
+    n = 5
+    nBase= 5
+    
     raise NotImplementedError("absolute")
 
 
