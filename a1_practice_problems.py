@@ -27,9 +27,9 @@ def absolute(n: int) -> int:
 def factorial(n: int) -> int:
     n = 5 
     nBase =5
-    while (n>0):
+    while (nBase>0):
         n=(nBase*(nBase-1))
-        nBase-1
+        nBase= nBase-1
 
     print(n)
     """
@@ -38,7 +38,7 @@ def factorial(n: int) -> int:
 
 T = TypeVar("T")
 
-
+"""
 def every_other(lst: List[T]) -> List[T]:
     """Takes a list and returns a list of every other element in the list, starting with
     the first.
@@ -54,14 +54,16 @@ def every_other(lst: List[T]) -> List[T]:
 
 
 def sum_list(lst: List[int]) -> int:
+    list = [1,2,3,4,5,6,7,8,9,10]
+    sum_list = list1+list2+list3+list4+list5+list6+list7+list8+list9+list10
     """Takes a list of numbers, and returns the sum of the numbers in that list. Cannot
-    use the built in function `sum`.
+    use the built in function `sum`."""
 
     Args:
         lst - a list of numbers
 
     Returns:
-        the sum of the passed in list
+        sum
     """
     raise NotImplementedError("sum_list")
 
