@@ -1,5 +1,5 @@
 """Assignment 1
-
+MATTHEW KUPIEC
 Fill in the following function skeletons - descriptions are provided in 
 the docstring (the triple quote thing at the top of each function)
 
