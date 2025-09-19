@@ -20,12 +20,12 @@ Remember: The goal is to **learn programming** while building **AI collaboration
 | Criteria | Points Possible | Points Earned | Comments |
 |----------|----------------|---------------|----------|
 | **Programming Completion** | | | |
-| a1.py Functions Complete | 3 | | |
-| a1_practice_problems.py Complete | 3 | | |
+| a1.py Functions Complete | 3 | 3 | |
+| a1_practice_problems.py Complete | 3 | 2 | Factorial and duck duck goose were not correct.  Make sure to double check everything and refer to my code if yours isn't working. |
 | **Reflection & Learning** | | | |
-| AI Collaboration Process | 2 | | |
-| Learning Reflection Quality | 2 | | |
-| **TOTAL** | **10** | | |
+| AI Collaboration Process | 2 | 2 | |
+| Learning Reflection Quality | 2 | 2 | |
+| **TOTAL** | **10** | 9 | Asserts are like unit tests.  They are testing if that function works correctly.  We will be using them the rest of the year, so if you still have questions, then you should ask me. |
 
 ---
 
